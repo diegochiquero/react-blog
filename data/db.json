@@ -1,0 +1,23 @@
+{
+  "blogs": [
+    {
+      "title": "Breaking news",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue elit a velit vestibulum bibendum. Donec at molestie neque. Donec eleifend felis egestas purus accumsan ultricies. Donec tincidunt lobortis felis, ac mollis diam vulputate non.",
+      "author": "Bruce",
+      "id": 1
+    },
+    {
+      "title": "Hello there!",
+      "body": "Suspendisse condimentum egestas commodo. Aliquam consectetur mollis felis, non ultricies dolor pretium eu. Curabitur id nibh efficitur, pretium lectus at, sodales felis. Morbi condimentum mollis iaculis. Duis eu suscipit tortor, eget lobortis arcu.",
+      "author": "Hill",
+      "id": 2
+    },
+    {
+      "title": "Web fantasy",
+      "body": "Morbi quis libero quis lacus ullamcorper commodo. In quis dolor rutrum, viverra est eu, venenatis ex. In in enim tellus. Curabitur venenatis nisl lorem, quis convallis turpis pharetra a. Curabitur quis nisl eget nulla interdum fermentum.",
+      "author": "Bruce",
+      "id": 3,
+      "_comment": "run this code before -> npx json-server --watch data/db.json --port 8000"
+    }
+  ]
+}
