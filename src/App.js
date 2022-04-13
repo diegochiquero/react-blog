@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import NotFund from "./views/NotFund";
 import Home from "./views/Home";
 import Create from "./views/Create";
 import BlogDetails from "./views/BlogDetails";
@@ -19,6 +20,9 @@ function App() {
             </Route>
             <Route path="/blogs/:id">
               <BlogDetails />
+            </Route>
+            <Route path="*">
+              <NotFund />
             </Route>
           </Switch>
         </div>
