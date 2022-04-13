@@ -2,11 +2,12 @@ import BlogList from "../components/BlogList";
 import useFetch from "../hooks/useFetch";
 
 const Home = () => {
+  const url = "http://localhost:8000/blogs";
   const {
     datas: blogs,
     isPending,
     error,
-  } = useFetch("http://localhost:8000/blogs");
+  } = useFetch(url);
 
   return (
     <div className="home">
