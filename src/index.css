@@ -65,7 +65,79 @@
   background: #1e88e5;
   color: #fff;
   border: 0;
-  padding: 8px;
-  border-radius: 8px;
+  margin: 10px;
+  padding: 6px;
+  border-radius: 2px;
   cursor: pointer;
+  font-size: 18px;
+}
+.blog-details a {
+  background-color: #1e88e5;
+  color: #fff;
+  border: 0;
+  margin: 10px;
+  padding: 6px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #1e88e5;
+  margin-bottom: 30px;
+}
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #1e88e5;
+  color: #fff;
+  border: 0;
+  padding: 6px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/*Not fund page*/
+.not-fund h2 {
+  font-size: 20px;
+  color: #1e88e5;
+  margin-bottom: 10px;
+}
+.not-fund div {
+  margin: 20px 0;
+}
+.not-fund p{
+  margin: 10px 0px 10px 0px;
+}
+.not-fund a {
+  background-color: #1e88e5;
+  color: #fff;
+  border: 0;
+  margin: 10px 0;
+  padding: 6px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
 }
